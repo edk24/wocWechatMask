@@ -19,25 +19,23 @@
 第一步，引入js
 
 
-```
+```javascript
 <script src="./weixin.js"></script>
 ```
 
 第二步，使用
 
 
+```html
+<div onclick="wocMask()">你好呀~ 请点击我</div>
 ```
-<script>
-document.getElementById('download').onclick = function(){
-	wocMask()
-}
-</script>
-```
+
+
 
 **其他辅助功能**
 
 判断浏览器类型
-```
+```javascript
 console.log(wocDevice);
 
 {isAndroid: true, isIOS: false, isWechat: false, isQQ: false, isLinux: true}
